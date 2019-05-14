@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/backColor">
+
+    <com.example.passworview.PasswordView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:Num="6"
+        app:Title="密码输入框"
+        app:titleSize="16sp"
+        app:titleColor="@color/titleColor"
+        app:textSize="28sp"
+        app:textColor="@color/passwordColor"
+        android:layout_centerInParent="true"
+        android:background="@color/whiteColor"/>
+</RelativeLayout>

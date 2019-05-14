@@ -13,7 +13,7 @@ allprojects {
    }
 }
 
-(2)在module的build.gradle文件中添加以下代码： 
+在module的build.gradle文件中添加以下代码： 
 dependencies { 
    ...... 
    implementation 'com.example:passwordview:1.0.1' 
